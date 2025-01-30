@@ -1,19 +1,17 @@
 <!ELEMENT Etudiants (Etudiant+)>
 
-<!ELEMENT Etudiant (CodeApogee, Nom, Prenom+, Email, CIN, DateNaissance, LieuNaissance, Sexe, Telephone, Premiere_inscription, Classe, Photo_path?)>
+<!ELEMENT Etudiant (CodeApogee, Nom, Prenom+, Email?, CIN, CNE, DateNaissance, LieuNaissance, Telephone, Premiere_inscription, Classe, Photo_path?)>
 
 <!ELEMENT CodeApogee (#PCDATA)>
 <!ELEMENT Nom (#PCDATA)>
 <!ELEMENT Prenom (#PCDATA)>
 <!ELEMENT Email (#PCDATA)>
 <!ELEMENT CIN (#PCDATA)>
+<!ELEMENT CNE (#PCDATA)>
 <!ELEMENT DateNaissance (#PCDATA)>
 <!ELEMENT LieuNaissance (#PCDATA)>
-<!ELEMENT Sexe (#PCDATA)>
 <!ELEMENT Telephone (#PCDATA)>
 <!ELEMENT Premiere_inscription (#PCDATA)>
 <!ELEMENT Classe (#PCDATA)>
 <!ELEMENT Photo_path (#PCDATA)>
 
-<!-- Contraintes -->
-<!ATTLIST Sexe type (H | F) #REQUIRED>  <!-- Valeurs autorisées : H ou F -->

@@ -3,14 +3,14 @@
 
 <Etudiants>
     <Etudiant>
-        <CodeApogee>20000773</CodeApogee>
+        <CodeApogee>2000073</CodeApogee>
         <Nom>ABETIOU</Nom>
         <Prenom>SOFIANE</Prenom>
         <Email>ABETIOU.SOFIANE@etu.uae.ac.ma</Email>
         <CIN>K432272</CIN>
+        <CNE>CN32272</CNE>
         <DateNaissance>2001-11-08</DateNaissance>
         <LieuNaissance>Tétouan</LieuNaissance>
-        <Sexe type="H"/>
         <Telephone>0767366306</Telephone>
         <Premiere_inscription>2021-2022</Premiere_inscription>
         <Classe>GINF</Classe>
@@ -19,13 +19,13 @@
 
     <Etudiant>
         <CodeApogee>2000077</CodeApogee>
-        <Nom>ABETIOU</Nom>
-        <Prenom>SOFIANE</Prenom>
-        <Email>ABETIOU.SOFIetu.uae.ac.ma</Email> <!-- Erreur ici, manque le @ -->
+        <Nom>SAKHRI</Nom>
+        <Prenom>MOHAMED</Prenom>
+        <Email>ABETIOU.SOFIANE@etu.uae.ac.ma</Email> <!-- Erreur ici, manque le @ -->
         <CIN>K432272</CIN>
-        <DateNaissance>2001-11-08</DateNaissance>
+        <CNE>CNE32272</CNE>
+        <DateNaissance>2003-11-08</DateNaissance>
         <LieuNaissance>Tétouan</LieuNaissance>
-        <Sexe type="H"/>
         <Telephone>0767366306</Telephone>
         <Premiere_inscription>2021-2022</Premiere_inscription>
         <Classe>GINF</Classe>

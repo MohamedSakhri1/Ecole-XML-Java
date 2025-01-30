@@ -1,6 +1,0 @@
-<!ELEMENT Sous_modules (Sous_Module+)>
-<!ELEMENT Sous_Module (Nom, Code, Module, Professeur)>
-<!ELEMENT Nom (#PCDATA)>
-<!ELEMENT Code (#PCDATA)>
-<!ELEMENT Module (#PCDATA)>
-<!ELEMENT Professeur (#PCDATA)>
