@@ -1,8 +1,8 @@
 declare variable $moduleCode external;
 
-let $etudiants := doc("../FichiersXML/Etudiant/Etudiants.xml")/Etudiants/Etudiant
-let $notes := doc("../FichiersXML/Note/Notes.xml")/Notes/Note
-let $modules := doc("../FichiersXML/Module/Modules.xml")/Modules/Module
+let $etudiants := doc("../Fichiers XML/Etudiant/Etudiants.xml")/Etudiants/Etudiant
+let $notes := doc("../Fichiers XML/Note/Notes.xml")/Notes/Note
+let $modules := doc("../Fichiers XML/Module/Modules.xml")/Modules/Module
 
 for $module in $modules[@code = $moduleCode]
 return

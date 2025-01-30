@@ -33,7 +33,7 @@ public class TestXquery {
         evaluator.setExternalVariable(moduleCodeParam, moduleCodeValue);
 
         // Charger le fichier XML
-        File xmlFile = new File("src/main/resources/FichiersXML/Module/Modules.xml");
+        File xmlFile = new File("src/main/resources/Fichiers XML/Module/Modules.xml");
         XdmNode xmlDocument = processor.newDocumentBuilder().build(xmlFile);
 
         // Exécuter la requête XQuery
