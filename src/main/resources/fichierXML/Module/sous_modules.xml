@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Sous_modules SYSTEM "sous_modules.dtd">
+
+<Sous_modules>
+    <Sous_Module>
+        <Nom>JAVA</Nom>
+        <Code>GINF32</Code>
+        <Module>POO</Module>
+        <Professeur>Mohamed Haddad</Professeur>
+    </Sous_Module>
+
+    <Sous_Module>
+        <Nom>Python</Nom>
+        <Code>GINF33</Code>
+        <Module>Data Science</Module>
+        <Professeur>Fatima Zahra El Idrissi</Professeur>
+    </Sous_Module>
+</Sous_modules>

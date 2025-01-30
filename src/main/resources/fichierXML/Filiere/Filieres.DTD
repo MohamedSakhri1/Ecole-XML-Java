@@ -1,0 +1,5 @@
+<!ELEMENT Filieres (Filiere+)>
+<!ELEMENT Filiere (Nom, Code, Prof_Responsable)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Code (#PCDATA)>
+<!ELEMENT Prof_Responsable (#PCDATA)>

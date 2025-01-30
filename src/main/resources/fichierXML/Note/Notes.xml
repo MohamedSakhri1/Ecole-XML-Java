@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Notes SYSTEM "Notes.dtd">
+
+<Notes>
+    <Note>
+        <Sous_Module>JAVA</Sous_Module>
+        <CodeApogee>20000773</CodeApogee>
+        <Moyenne>15.56</Moyenne>
+    </Note>
+
+    <Note>
+        <Sous_Module>Python</Sous_Module>
+        <CodeApogee>20000888</CodeApogee>
+        <Moyenne>18.75</Moyenne>
+    </Note>
+</Notes>

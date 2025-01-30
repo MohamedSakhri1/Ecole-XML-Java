@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Professeurs SYSTEM "Professeurs.dtd">
+
+<Professeurs>
+    <Professeur>
+        <Nom>ABETIOU</Nom>
+        <Prenom>SOFIANE</Prenom>
+        <Email>ABETIOU.SOFIANE@etu.uae.ac.ma</Email>
+        <Telephone>0767366306</Telephone>
+        <Departement>Informatique</Departement>
+    </Professeur>
+
+    <Professeur>
+        <Nom>EL AMRANI</Nom>
+        <Prenom>YASSINE</Prenom>
+        <Email>YASSINE.ELAMRANI@etu.uae.ac.ma</Email>
+        <Telephone>0612345678</Telephone>
+        <Departement>Réseaux</Departement>
+    </Professeur>
+</Professeurs>

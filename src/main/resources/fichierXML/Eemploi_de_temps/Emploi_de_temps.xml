@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Eemploi_de_temps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Emploi_de_temps.XSD">
+
+    <Filiere nom="ginf2">
+        <Jour nom="Lundi" date="02/01">
+            <Module nom="xml">
+                <Creneau type="TD">
+                    <Heure>09:00 - 10:30</Heure>
+                    <Prof>Mohamed Halli</Prof>
+                    <Salle>B12</Salle>
+                </Creneau>
+                <Creneau type="TD">
+                    <Heure>11:00 - 12:30</Heure>
+                    <Prof>Mohamed Halli</Prof>
+                    <Salle>B12</Salle>
+                </Creneau>
+            </Module>
+        </Jour>
+        <Jour nom="Mardi" date="03/01">
+            <Module nom="xml">
+                <Creneau type="TD">
+                    <Heure>09:00 - 10:30</Heure>
+                    <Prof>Mohamed Halli</Prof>
+                    <Salle>B12</Salle>
+                </Creneau>
+                <Creneau type="TD">
+                    <Heure>11:00 - 12:30</Heure>
+                    <Prof>Mohamed Halli</Prof>
+                    <Salle>B12</Salle>
+                </Creneau>
+            </Module>
+        </Jour>
+    </Filiere>
+
+</Eemploi_de_temps>

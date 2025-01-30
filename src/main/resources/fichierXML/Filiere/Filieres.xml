@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Filieres SYSTEM "Filieres.dtd">
+
+<Filieres>
+    <Filiere>
+        <Nom>Genie Informatique</Nom>
+        <Code>GINF</Code>
+        <Prof_Responsable>Hassan Baidr</Prof_Responsable>
+    </Filiere>
+
+    <Filiere>
+        <Nom>Genie Electrique</Nom>
+        <Code>GELEC</Code>
+        <Prof_Responsable>Mohamed El Haddadi</Prof_Responsable>
+    </Filiere>
+</Filieres>
