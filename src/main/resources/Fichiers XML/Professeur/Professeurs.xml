@@ -5,7 +5,7 @@
     <Professeur>
         <Nom>ABETIOU</Nom>
         <Prenom>SOFIANE</Prenom>
-        <Email>ABETIOU.SOFIANE@etu.uae.ac.ma</Email>
+        <Email>ABETIOU.SOFIANE@uae.ac.ma</Email>
         <Telephone>0767366306</Telephone>
         <Departement>Informatique</Departement>
     </Professeur>
@@ -13,7 +13,7 @@
     <Professeur>
         <Nom>EL AMRANI</Nom>
         <Prenom>YASSINE</Prenom>
-        <Email>YASSINE.ELAMRANI@etu.uae.ac.ma</Email>
+        <Email>YASSINE.ELAMRANI@uae.ac.ma</Email>
         <Telephone>0612345678</Telephone>
         <Departement>Réseaux</Departement>
     </Professeur>

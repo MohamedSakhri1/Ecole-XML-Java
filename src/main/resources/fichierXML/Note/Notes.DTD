@@ -1,5 +1,0 @@
-<!ELEMENT Notes (Note+)>
-<!ELEMENT Note (Sous_Module, CodeApogee, Moyenne)>
-<!ELEMENT Sous_Module (#PCDATA)>
-<!ELEMENT CodeApogee (#PCDATA)>
-<!ELEMENT Moyenne (#PCDATA)>
