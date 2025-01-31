@@ -48,6 +48,7 @@ public class TestXquery {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
             // Ajout de la déclaration XML et de la référence DTD
             writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n");
+            //writer.write("<?xml-stylesheet type=\"text/xsl\" href=\"../../Fichiers XSLT/AffichageHTML.xslt\"?>\n");
 
             // Ajout du contenu XML généré
             for (XdmItem item : result) {
