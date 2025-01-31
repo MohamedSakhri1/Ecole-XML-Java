@@ -2,6 +2,7 @@ declare variable $apogee external;
 
 let $etudiants := doc("../Fichiers_XML/Etudiant/Etudiants.xml")/Etudiants/Etudiant
 let $notes := doc("../Fichiers_XML/Note/Notes.xml")/Notes/Note
+let $modules := doc("../Fichiers_XML/Module/Modules.xml")/Modules/Module
 
 for $etudiant in $etudiants[CodeApogee = $apogee]
 return
@@ -23,9 +24,10 @@ return
         <NotesEtudiant xsi:noNamespaceSchemaLocation="notes.xsd">
             {
                 for $note in $notes[CodeApogee = $apogee]
+                let $module := $modules[@code = $note/ModuleCode]  (: Récupération du module correspondant :)
                 return
                     <Note>
-                        <ModuleCode>{data($note/ModuleCode)}</ModuleCode>
+                        <ModuleCode>{concat(data($note/ModuleCode)," : ", data($module/@nom))}</ModuleCode>
                         <SousModule>{data($note/SousModule)}</SousModule>
                         <Moyenne>{data($note/Moyenne)}</Moyenne>
                     </Note>

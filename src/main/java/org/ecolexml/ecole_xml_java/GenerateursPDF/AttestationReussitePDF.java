@@ -35,7 +35,7 @@ public class AttestationReussitePDF {
     /**
      * Exécute une requête XQuery pour générer un fichier XML à partir des données d'un étudiant.
      */
-    private static void executeXQuery(String xqueryFile, String outputXml, String apogee) throws SaxonApiException, IOException {
+    public static void executeXQuery(String xqueryFile, String outputXml, String apogee) throws SaxonApiException, IOException {
         Processor processor = new Processor(false);
         XQueryCompiler compiler = processor.newXQueryCompiler();
         XQueryExecutable executable = compiler.compile(new File(xqueryFile));
@@ -65,7 +65,7 @@ public class AttestationReussitePDF {
     /**
      * Transforme un fichier XML en PDF à l'aide de XSL-FO et Apache FOP.
      */
-    private static void generatePDF(String xmlFile, String xslFoFile, String outputPdf) throws Exception {
+    public static void generatePDF(String xmlFile, String xslFoFile, String outputPdf) throws Exception {
         File xmlSource = new File(xmlFile);
         File xslFoSource = new File(xslFoFile);
         File pdfFile = new File(outputPdf);
