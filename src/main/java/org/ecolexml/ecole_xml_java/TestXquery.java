@@ -2,9 +2,7 @@ package org.ecolexml.ecole_xml_java;
 
 import net.sf.saxon.s9api.*;
 
-import javax.xml.transform.Source;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 
 public class TestXquery {
 
@@ -12,8 +10,11 @@ public class TestXquery {
         // Définir le chemin du fichier XQuery
         String xqueryFilePath = "src/main/resources/Fichiers XQuery/getModuleResults.xquery";
 
-        // Paramètre externe que nous allons passer (par exemple, "math")
+        // ---------------------- Paramètre externe
         String moduleCode = "GINF32";
+
+        // Chemin de sortie du fichier XML
+        String outputFilePath = "src/main/resources/Fichiers XML/Affichage de module/Affichage_"+moduleCode+".xml";
 
         // Créer le processor Saxon
         Processor processor = new Processor(false);
@@ -28,29 +29,30 @@ public class TestXquery {
         // Définir le paramètre externe
         QName moduleCodeParam = new QName("moduleCode");
         XdmAtomicValue moduleCodeValue = new XdmAtomicValue(moduleCode);
-
-        // Passer le paramètre externe à la requête
         evaluator.setExternalVariable(moduleCodeParam, moduleCodeValue);
 
-        // Charger le fichier XML
-        File xmlFile = new File("src/main/resources/Fichiers XML/Module/Modules.xml");
-        XdmNode xmlDocument = processor.newDocumentBuilder().build(xmlFile);
-
         // Exécuter la requête XQuery
-        evaluator.setContextItem(xmlDocument);
         XdmValue result = evaluator.evaluate();
 
-        // Afficher le résultat
-        printXdmValue(result);
+        // Écrire le résultat dans un fichier XML
+        writeResultToFile(result, outputFilePath);
+
+        System.out.println("Résultat stocké dans : " + outputFilePath);
     }
 
-    private static void printXdmValue(XdmValue result) {
-        if (result.isEmpty()) {
-            System.out.println("Aucun résultat trouvé.");
-        } else {
-            // Afficher chaque élément du résultat
+    /**
+     * Écrit le résultat XdmValue dans un fichier XML avec une référence DTD.
+     */
+    private static void writeResultToFile(XdmValue result, String filePath) throws IOException {
+        File outputFile = new File(filePath);
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
+            // Ajout de la déclaration XML et de la référence DTD
+            writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n");
+
+            // Ajout du contenu XML généré
             for (XdmItem item : result) {
-                System.out.println(item.toString());
+                writer.write(item.toString());
+                writer.write("\n");
             }
         }
     }

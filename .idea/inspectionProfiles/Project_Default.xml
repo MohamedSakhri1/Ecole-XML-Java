@@ -10,5 +10,7 @@
         </value>
       </option>
     </inspection_tool>
+    <inspection_tool class="XPST0017" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="XPST0081" enabled="false" level="ERROR" enabled_by_default="false" />
   </profile>
 </component>

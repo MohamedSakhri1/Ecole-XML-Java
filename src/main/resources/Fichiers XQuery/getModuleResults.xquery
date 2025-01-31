@@ -6,7 +6,7 @@ let $modules := doc("../Fichiers XML/Module/Modules.xml")/Modules/Module
 
 for $module in $modules[@code = $moduleCode]
 return
-    <Module nom="{data($module/@nom)}">
+    <Module nom="{data($module/@nom)}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Affichage.xsd">
         {
             for $etudiant in $etudiants
             let $codeApogee := data($etudiant/CodeApogee)

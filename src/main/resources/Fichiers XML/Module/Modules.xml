@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Modules>
+    <Module code="GINF31" nom="Programation Orientée Objet &amp; XML">
+        <SousModule>
+            <Nom>Programation Orientée Objet : Java</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>XML</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF32" nom="Qualité &amp; approche processus">
+        <SousModule>
+            <Nom>Assurance contrôle qualité (ISO 9001)</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Cycle de Vie Logiciel et Méthodes agiles</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Maitrise et optimisation des processus</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF33" nom="Modelisation orientée objet et IHM">
+        <SousModule>
+            <Nom>Modelisation orientée objet UML</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>IHM</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Cycle de Vie logiciel</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF34" nom="Bases de données avancées 1">
+        <SousModule>
+            <Nom>Optimisation et Qualité de Base de données</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Administration et Sécurité des Bases de données</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Base de données NoSQL</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF35" nom="Administration et programmation système">
+        <SousModule>
+            <Nom>Administration systèmes</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Programmation systèmes</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF36" nom="Langue &amp; communication">
+        <SousModule>
+            <Nom>Espagnol 2 &amp; Allemand</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Anglais professionnel</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Technique de communication</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF41" nom="Technologies distribuées">
+        <SousModule>
+            <Nom>Introduction à J2EE</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Programmation en C#</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF42" nom="Basesnde données avancées 2 &amp; Cloud">
+        <SousModule>
+            <Nom>Gestion des données complexes</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Gestion des données distribuées</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Cloud Computing &amp; Infogérance</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF43" nom="Traitement de l'image">
+        <SousModule>
+            <Nom>Traitement de l'image</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Vision numérique</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Processus stochastique</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF44" nom="Programat déclarative et Techniques algorithmiques Avancées">
+        <SousModule>
+            <Nom>Programmation déclarative</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Technique algorithmique avancée</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF45" nom="Sécurité &amp; cryptographie">
+        <SousModule>
+            <Nom>Sécurité des systemes</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Cryptographie</Nom>
+        </SousModule>
+    </Module>
+    <Module code="GINF46" nom="Management de l'entreprise 2">
+        <SousModule>
+            <Nom>Economie 2 &amp; comptabilité 2</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Projet collectif &amp; stage</Nom>
+        </SousModule>
+        <SousModule>
+            <Nom>Management de Projet</Nom>
+        </SousModule>
+    </Module>
+</Modules>
