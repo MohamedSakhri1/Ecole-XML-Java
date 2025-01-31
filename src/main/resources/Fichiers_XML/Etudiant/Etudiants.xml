@@ -12,7 +12,7 @@
         <Telephone>0629844899</Telephone>
         <Premiere_inscription>2021/2022</Premiere_inscription>
         <Classe>GINF2</Classe>
-        <Photo_path>null</Photo_path>
+        <Photo_path>img.png</Photo_path>
     </Etudiant>
     <Etudiant>
         <CodeApogee>21011326</CodeApogee>
