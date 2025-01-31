@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Attestation.xsd">
+   <CodeApogee>21010278</CodeApogee>
+   <CIN>AD291762</CIN>
+   <CNE>J136291354</CNE>
+   <Nom>ABDELOUAHAB</Nom>
+   <Prenom>SOUFIANE</Prenom>
+   <LieuNaissance>RABAT</LieuNaissance>
+   <DateNaissance>2001-09-25</DateNaissance>
+   <Email>abdelouahab.soufiane@etu.uae.ac.ma</Email>
+   <Telephone>0629844899</Telephone>
+   <Premiere_inscription>2021/2022</Premiere_inscription>
+   <Classe>GINF2</Classe>
+   <Photo_path>null</Photo_path>
+</Etudiant>
