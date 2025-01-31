@@ -21,17 +21,17 @@
             <!-- Contenus -->
             <fo:page-sequence master-reference="A4">
 
-                <!-- Contenu de la tête de page avec l'image header.png -->
+                <!-- Contenu de la tête de page avec l'image headerScolarite.png -->
                 <fo:static-content flow-name="xsl-region-before">
                     <fo:block text-align="center">
-                        <fo:external-graphic src="src/main/resources/images/header.png" content-width="100%"/>
+                        <fo:external-graphic src="src/main/resources/images/headerScolarite.png" content-width="100%"/>
                     </fo:block>
                 </fo:static-content>
 
                 <!-- Contenu du pied de page avec l'image footer.png -->
                 <fo:static-content flow-name="xsl-region-after">
                     <fo:block text-align="center" margin-bottom="30px">
-                        <fo:external-graphic src="src/main/resources/images/footer.png" content-width="58%"/>
+                        <fo:external-graphic src="src/main/resources/images/footerScolarite.png" content-width="58%"/>
                     </fo:block>
                 </fo:static-content>
 
@@ -58,7 +58,7 @@
                             Né le : <xsl:value-of select="Etudiant/DateNaissance"/> à <xsl:value-of select="Etudiant/LieuNaissance"/>
                         </fo:block>
                         <fo:block margin-top="0.75cm">
-                            Poursuit ses études à l'École Nationale des Sciences Appliquées de Tanger pour l'année universitaire 2023/2024.
+                            Poursuit ses études à l'École Nationale des Sciences Appliquées de Tanger pour l'année universitaire 2024/2025.
                         </fo:block>
                         <fo:block margin-top="0.75cm">
                             <fo:inline text-decoration="underline">Diplôme</fo:inline> : Génie Informatique
