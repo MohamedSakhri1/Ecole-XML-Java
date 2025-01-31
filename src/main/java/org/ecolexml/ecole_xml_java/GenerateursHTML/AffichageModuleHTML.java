@@ -4,32 +4,79 @@ package org.ecolexml.ecole_xml_java.GenerateursHTML;
 import javax.xml.transform.*;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-import java.io.File;
+import java.io.*;
+import net.sf.saxon.s9api.*;
 
 public class AffichageModuleHTML {
     public static void main(String[] args) {
         // Définition des chemins des fichiers
-        String xmlFile = "src/main/resources/Fichiers_XQuery/Affichage_GINF32.xml"; // Fichier XML source
-        String xsltFile = "src/main/resources/Fichiers_XSLT/AffichageModule.xsl"; // Fichier XSLT
-        String outputHtml = "src/main/resources/Documents_HTML/AffichageModule.html"; // Fichier HTML généré
-
         try {
-            // Création de la fabrique et du transformeur
-            TransformerFactory factory = TransformerFactory.newInstance();
-            Transformer transformer = factory.newTransformer(new StreamSource(new File(xsltFile)));
+            // 🟢 Étape 1 : Exécuter XQuery et générer le XML
+            String moduleCode = "GINF41"; // Module à traiter
+            String xqueryFilePath = "src/main/resources/Fichiers_XQuery/getModuleResults.xquery";
+            String xmlOutputPath = "src/main/resources/Fichiers_XQuery/affichage_module_result_avec_Xquery/Affichage_" + moduleCode + ".xml";
 
-            // Source XML et sortie HTML
-            StreamSource xmlSource = new StreamSource(new File(xmlFile));
-            StreamResult htmlOutput = new StreamResult(new File(outputHtml));
+            System.out.println("📌 Exécution de XQuery...");
+            executeXQuery(xqueryFilePath, xmlOutputPath, moduleCode);
+            System.out.println("✅ Fichier XML généré : " + xmlOutputPath);
 
-            // Exécution de la transformation
-            transformer.transform(xmlSource, htmlOutput);
+            // 🟢 Étape 2 : Transformer XML en HTML avec XSLT
+            String xsltFilePath = "src/main/resources/Fichiers_XSLT/AffichageModule.xsl";
+            String htmlOutputPath = "src/main/resources/Documents_HTML/AffichageModule/AffichageModule_"+ moduleCode +".html";
 
-            System.out.println("✅ Transformation réussie : " + outputHtml);
-        } catch (TransformerException e) {
+            System.out.println("📌 Transformation en HTML...");
+            transformXMLtoHTML(xmlOutputPath, xsltFilePath, htmlOutputPath);
+            System.out.println("✅ Fichier HTML généré : " + htmlOutputPath);
+
+        } catch (Exception e) {
             e.printStackTrace();
-            System.err.println("❌ Erreur lors de la transformation XSLT !");
+            System.err.println("❌ Erreur lors du traitement !");
         }
+    }
+
+    /**
+     * Exécute une requête XQuery et écrit le résultat dans un fichier XML.
+     */
+    private static void executeXQuery(String xqueryFilePath, String outputFilePath, String moduleCode) throws SaxonApiException, IOException {
+        Processor processor = new Processor(false);
+        XQueryCompiler compiler = processor.newXQueryCompiler();
+        XQueryExecutable executable = compiler.compile(new File(xqueryFilePath));
+        XQueryEvaluator evaluator = executable.load();
+
+        // Définir le paramètre externe
+        QName moduleCodeParam = new QName("moduleCode");
+        evaluator.setExternalVariable(moduleCodeParam, new XdmAtomicValue(moduleCode));
+
+        // Exécuter la requête
+        XdmValue result = evaluator.evaluate();
+        writeResultToFile(result, outputFilePath);
+    }
+
+    /**
+     * Écrit le résultat de XQuery dans un fichier XML.
+     */
+    private static void writeResultToFile(XdmValue result, String filePath) throws IOException {
+        File outputFile = new File(filePath);
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
+            writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n");
+            for (XdmItem item : result) {
+                writer.write(item.toString());
+                writer.write("\n");
+            }
+        }
+    }
+
+    /**
+     * Transforme un fichier XML en HTML via XSLT.
+     */
+    private static void transformXMLtoHTML(String xmlFile, String xsltFile, String outputHtml) throws TransformerException {
+        TransformerFactory factory = TransformerFactory.newInstance();
+        Transformer transformer = factory.newTransformer(new StreamSource(new File(xsltFile)));
+
+        transformer.transform(
+                new StreamSource(new File(xmlFile)),
+                new StreamResult(new File(outputHtml))
+        );
     }
 }
 
