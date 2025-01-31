@@ -8,13 +8,13 @@ public class TestXquery {
 
     public static void main(String[] args) throws SaxonApiException, IOException {
         // Définir le chemin du fichier XQuery
-        String xqueryFilePath = "src/main/resources/Fichiers XQuery/getModuleResults.xquery";
+        String xqueryFilePath = "src/main/resources/Fichiers_XQuery/getModuleResults.xquery";
 
         // ---------------------- Paramètre externe
         String moduleCode = "GINF32";
 
         // Chemin de sortie du fichier XML
-        String outputFilePath = "src/main/resources/Fichiers XML/Affichage de module/Affichage_"+moduleCode+".xml";
+        String outputFilePath = "src/main/resources/Fichiers_XQuery/Affichage_"+moduleCode+".xml";
 
         // Créer le processor Saxon
         Processor processor = new Processor(false);
@@ -48,7 +48,7 @@ public class TestXquery {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
             // Ajout de la déclaration XML et de la référence DTD
             writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n");
-            //writer.write("<?xml-stylesheet type=\"text/xsl\" href=\"../../Fichiers XSLT/AffichageHTML.xslt\"?>\n");
+            //writer.write("<?xml-stylesheet type=\"text/xsl\" href=\"../../Fichiers_XSLT/AffichageHTML.xslt\"?>\n");
 
             // Ajout du contenu XML généré
             for (XdmItem item : result) {

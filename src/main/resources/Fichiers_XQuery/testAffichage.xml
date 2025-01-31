@@ -18,7 +18,7 @@
         <Prenom>Anas</Prenom>
         <DateNaissance>10-08-2003</DateNaissance>
         <SousModule nom="Java">
-            <Note>11,9</Note>
+            <Note>11.9</Note>
         </SousModule>
         <SousModule nom="C++">
             <Note>17</Note>

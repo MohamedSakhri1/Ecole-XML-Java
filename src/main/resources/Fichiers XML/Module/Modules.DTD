@@ -1,8 +1,0 @@
-<!ELEMENT Modules (Module+)>
-        <!ELEMENT Module (SousModule+)>
-
-        <!ATTLIST Module nom CDATA #REQUIRED>
-        <!ATTLIST Module code CDATA #REQUIRED>
-
-        <!ELEMENT SousModule (Nom)>
-        <!ELEMENT Nom (#PCDATA)>

@@ -85,7 +85,7 @@ public class CreartionEtudiantXml {
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
 
             DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/resources/Fichiers XML/Etudiant/Etudiants.xml"));
+            StreamResult result = new StreamResult(new File("/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/resources/Fichiers_XML/Etudiant/Etudiants.xml"));
 
             transformer.transform(source, result);
 

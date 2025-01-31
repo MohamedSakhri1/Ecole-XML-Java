@@ -4,6 +4,7 @@ module org.ecolexml.ecole_xml_java {
     requires Saxon.HE;
     requires org.apache.poi.poi;
     requires java.xml;
+    requires fop;
 
 
     opens org.ecolexml.ecole_xml_java to javafx.fxml;

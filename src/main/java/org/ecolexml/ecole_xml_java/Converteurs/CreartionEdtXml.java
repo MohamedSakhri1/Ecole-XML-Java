@@ -107,7 +107,7 @@ public class CreartionEdtXml {
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
 
             DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/resources/Fichiers XML/Emploi du temps/Emploi_du_temps.xml"));
+            StreamResult result = new StreamResult(new File("/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/resources/Fichiers_XML/Emploi du temps/Emploi_du_temps.xml"));
 
             transformer.transform(source, result);
 
