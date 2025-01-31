@@ -19,7 +19,7 @@ public class CreartionEdtXml {
     public static void main(String[] args) {
         try {
             // Lire le fichier Excel
-            File file = new File("/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/java/org/ecolexml/ecole_xml_java/Converteurs/EDT_GINF2.xlsx");
+            File file = new File("src/main/java/org/ecolexml/ecole_xml_java/Converteurs/EDT_GINF2.xlsx");
             Workbook workbook = WorkbookFactory.create(file);
             Sheet sheet = workbook.getSheetAt(0); // Première feuille
 
