@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="Etudiant">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="CodeApogee" type="xs:int"/>
+                <xs:element name="CIN" type="xs:string"/>
+                <xs:element name="CNE" type="xs:string"/>
+                <xs:element name="Nom" type="xs:string"/>
+                <xs:element name="Prenom" type="xs:string"/>
+                <xs:element name="LieuNaissance" type="xs:string"/>
+                <xs:element name="DateNaissance" type="xs:date"/>
+                <xs:element name="Email" type="xs:string"/>
+                <xs:element name="Telephone" type="xs:string"/>
+                <xs:element name="Premiere_inscription" type="xs:string"/>
+                <xs:element name="Classe" type="xs:string"/>
+                <xs:element name="Photo_path" type="xs:string" minOccurs="0" nillable="true"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
