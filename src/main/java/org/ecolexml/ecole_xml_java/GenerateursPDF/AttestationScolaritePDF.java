@@ -10,25 +10,33 @@ import java.io.*;
 
 public class AttestationScolaritePDF {
 
-    public static void main(String[] args) {
+    /**
+     * Méthode principale pour générer l'attestation de scolarité en PDF
+     * @param apogee Le numéro d'apogée de l'étudiant
+     * @return Le fichier PDF généré
+     */
+    public static File fn(String apogee) {
         try {
-            String apogee = "21010278"; // Numéro de l'étudiant à rechercher
+            // 1. Exécuter XQuery et générer le fichier XML pour l'étudiant
             File xmlFile = new File("src/main/resources/Fichiers_XQuery/Attestation_scolarite_result_avec_Xquery/Attestation_Scolarité" + apogee + ".xml");
             executeXQuery(apogee, xmlFile);
 
-            // ✅ Étape 2 : Transformer le fichier XML en PDF avec XSL-FO
+            // 2. Transformer le fichier XML en PDF avec XSL-FO
             File xslFoFile = new File("src/main/resources/Fichiers_XSL_FO/AttestationScolarite.xsl");
             File pdfDir = new File("src/main/resources/Documents_PDF/AttestationScolarite");
-            pdfDir.mkdirs();
+            if (!pdfDir.exists()) pdfDir.mkdirs(); // Créer le dossier si nécessaire
             File pdfFile = new File(pdfDir, "AttestationScolarite_" + apogee + ".pdf");
 
             generatePDF(xmlFile, xslFoFile, pdfFile);
-            System.out.println("✅ PDF généré avec succès : " + pdfFile.getAbsolutePath());
+
+            // Retourner le fichier PDF généré
+            return pdfFile;
 
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("❌ Erreur lors de la génération du PDF !");
         }
+        return null;
     }
 
     /**
@@ -71,8 +79,7 @@ public class AttestationScolaritePDF {
         FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
         FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
 
-        OutputStream out = new BufferedOutputStream(new FileOutputStream(pdfFile));
-        try {
+        try (OutputStream out = new BufferedOutputStream(new FileOutputStream(pdfFile))) {
             Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, foUserAgent, out);
             TransformerFactory factory = TransformerFactory.newInstance();
             Transformer transformer = factory.newTransformer(new StreamSource(xslFoFile));
@@ -80,8 +87,6 @@ public class AttestationScolaritePDF {
             Source src = new StreamSource(xmlFile);
             Result res = new SAXResult(fop.getDefaultHandler());
             transformer.transform(src, res);
-        } finally {
-            out.close();
         }
     }
 }

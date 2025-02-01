@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        nom="Programation Orientée Objet &amp; XML"
+        nom="Programation OrientÃ©e Objet &amp; XML"
         xsi:noNamespaceSchemaLocation="Affichage.xsd">
    <Etudiant>
       <CodeApogee>21010278</CodeApogee>
       <Nom>ABDELOUAHAB</Nom>
       <Prenom>SOUFIANE</Prenom>
       <DateNaissance>2001-09-25</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -19,7 +19,7 @@
       <Nom>ABOU-EL KASEM</Nom>
       <Prenom>KENZA</Prenom>
       <DateNaissance>2003-05-21</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>19</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -31,7 +31,7 @@
       <Nom>AHMYTTOU</Nom>
       <Prenom>AYA</Prenom>
       <DateNaissance>2004-02-23</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>20</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -43,7 +43,7 @@
       <Nom>AIDOUN</Nom>
       <Prenom>IBTISSAM</Prenom>
       <DateNaissance>2002-09-14</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>14</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -55,7 +55,7 @@
       <Nom>AL AZAMI</Nom>
       <Prenom>TAREK</Prenom>
       <DateNaissance>2001-02-23</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -67,7 +67,7 @@
       <Nom>ALLAM</Nom>
       <Prenom>ELARBI</Prenom>
       <DateNaissance>2004-02-27</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>17</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -79,7 +79,7 @@
       <Nom>ARIB</Nom>
       <Prenom>AYMANE</Prenom>
       <DateNaissance>2003-09-25</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>18</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -91,7 +91,7 @@
       <Nom>AZZMAN</Nom>
       <Prenom>NORELIMANE</Prenom>
       <DateNaissance>2003-09-26</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>17</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -103,7 +103,7 @@
       <Nom>AZZOUZ</Nom>
       <Prenom>CHAIMAE</Prenom>
       <DateNaissance>2004-01-31</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>13</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -115,7 +115,7 @@
       <Nom>BEN IMRAN</Nom>
       <Prenom>AHLAM</Prenom>
       <DateNaissance>2003-10-27</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>18</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -127,7 +127,7 @@
       <Nom>BENCHINE</Nom>
       <Prenom>ABDELILAH</Prenom>
       <DateNaissance>2003-12-31</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>19</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -139,7 +139,7 @@
       <Nom>BENMGUIRIDA</Nom>
       <Prenom>ANAS</Prenom>
       <DateNaissance>2000-12-18</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>16</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -151,7 +151,7 @@
       <Nom>BERKOUKT</Nom>
       <Prenom>AMINE</Prenom>
       <DateNaissance>2004-05-13</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>18</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -163,7 +163,7 @@
       <Nom>BIGAGANE</Nom>
       <Prenom>ABDELLAH</Prenom>
       <DateNaissance>2004-01-13</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>15</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -175,7 +175,7 @@
       <Nom>BOUHNINE</Nom>
       <Prenom>SAFAA</Prenom>
       <DateNaissance>2001-12-28</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>5</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -187,7 +187,7 @@
       <Nom>BOUKER</Nom>
       <Prenom>MOHAMMED</Prenom>
       <DateNaissance>2003-07-19</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>4</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -199,7 +199,7 @@
       <Nom>BOULERBAH</Nom>
       <Prenom>YASSER</Prenom>
       <DateNaissance>2003-09-13</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>6</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -211,7 +211,7 @@
       <Nom>BOUNOUAR</Nom>
       <Prenom>MOHAMMED</Prenom>
       <DateNaissance>2003-12-15</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>18</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -223,7 +223,7 @@
       <Nom>BOUSSAID</Nom>
       <Prenom>MERYEME</Prenom>
       <DateNaissance>2003-05-10</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -235,7 +235,7 @@
       <Nom>CHAIBERRAS</Nom>
       <Prenom>SOUHAIL</Prenom>
       <DateNaissance>2003-04-17</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>18</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -247,7 +247,7 @@
       <Nom>CHERKI</Nom>
       <Prenom>HOUSSAM</Prenom>
       <DateNaissance>2003-04-20</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -259,7 +259,7 @@
       <Nom>DAHBI</Nom>
       <Prenom>MOAD</Prenom>
       <DateNaissance>2003-09-03</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>13</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -271,7 +271,7 @@
       <Nom>ECHCHRIKI</Nom>
       <Prenom>IMAD</Prenom>
       <DateNaissance>2002-04-14</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>12</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -283,7 +283,7 @@
       <Nom>EL ADNANI</Nom>
       <Prenom>EL MEHDI</Prenom>
       <DateNaissance>2003-04-18</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -295,7 +295,7 @@
       <Nom>EL AIDI IDRISSI</Nom>
       <Prenom>ACHRAF</Prenom>
       <DateNaissance>2004-02-12</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -307,7 +307,7 @@
       <Nom>EL AOUAD</Nom>
       <Prenom>OUAAIL</Prenom>
       <DateNaissance>2003-07-19</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>10</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -319,7 +319,7 @@
       <Nom>EL BAKALI</Nom>
       <Prenom>MALAK</Prenom>
       <DateNaissance>2003-11-12</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>12</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -331,7 +331,7 @@
       <Nom>EL FERCHOUNI</Nom>
       <Prenom>SOUKAYNA</Prenom>
       <DateNaissance>2001-09-20</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>15</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -343,7 +343,7 @@
       <Nom>EL GARTI</Nom>
       <Prenom>YASSINE</Prenom>
       <DateNaissance>2003-05-20</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>20</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -355,7 +355,7 @@
       <Nom>EL GHAZI</Nom>
       <Prenom>SILIA</Prenom>
       <DateNaissance>2003-04-04</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>18</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -367,7 +367,7 @@
       <Nom>EL HARIRI</Nom>
       <Prenom>KENZA</Prenom>
       <DateNaissance>1999-03-23</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>12</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -379,7 +379,7 @@
       <Nom>EL HARRAK</Nom>
       <Prenom>MEHDI</Prenom>
       <DateNaissance>2003-07-15</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>9</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -391,7 +391,7 @@
       <Nom>EL HLLAFI</Nom>
       <Prenom>BASMA</Prenom>
       <DateNaissance>2003-08-28</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>5</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -403,7 +403,7 @@
       <Nom>EL M RABET</Nom>
       <Prenom>SAIDA</Prenom>
       <DateNaissance>2001-05-06</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>7</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -415,7 +415,7 @@
       <Nom>EL MATNI</Nom>
       <Prenom>ADAM</Prenom>
       <DateNaissance>2003-09-24</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>10</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -427,7 +427,7 @@
       <Nom>EL OUAHABI</Nom>
       <Prenom>ANASS</Prenom>
       <DateNaissance>2003-05-26</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>17</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -439,7 +439,7 @@
       <Nom>EL YAZGHI</Nom>
       <Prenom>MARYEM</Prenom>
       <DateNaissance>1999-07-20</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>15</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -451,7 +451,7 @@
       <Nom>EL- OTMANI</Nom>
       <Prenom>SARA</Prenom>
       <DateNaissance>2003-11-27</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>14</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -463,7 +463,7 @@
       <Nom>EL-BATTEOUI</Nom>
       <Prenom>OUSSAMA</Prenom>
       <DateNaissance>2003-01-03</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>17</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -475,7 +475,7 @@
       <Nom>FAROUK</Nom>
       <Prenom>ZAKARIA</Prenom>
       <DateNaissance>2001-09-24</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>13</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -487,7 +487,7 @@
       <Nom>HADAD</Nom>
       <Prenom>WAIL</Prenom>
       <DateNaissance>2003-12-03</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>12</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -499,7 +499,7 @@
       <Nom>HAJOUZ</Nom>
       <Prenom>RIHAB</Prenom>
       <DateNaissance>2004-03-16</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>10</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -511,7 +511,7 @@
       <Nom>HILALY</Nom>
       <Prenom>ANAS</Prenom>
       <DateNaissance>2003-09-20</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>17</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -523,7 +523,7 @@
       <Nom>IKEN</Nom>
       <Prenom>HANAE</Prenom>
       <DateNaissance>2003-03-27</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -535,7 +535,7 @@
       <Nom>JEBARI HASSANI</Nom>
       <Prenom>ABDELHAK</Prenom>
       <DateNaissance>2003-11-24</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>15</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -547,7 +547,7 @@
       <Nom>KABBOUR</Nom>
       <Prenom>WISSAL</Prenom>
       <DateNaissance>2002-08-04</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -559,7 +559,7 @@
       <Nom>KEROUAN SALAH</Nom>
       <Prenom>SOUMAIA</Prenom>
       <DateNaissance>2003-04-27</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>9</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -571,7 +571,7 @@
       <Nom>KONTAR</Nom>
       <Prenom>RIHAM</Prenom>
       <DateNaissance>2003-11-16</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>10</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -583,7 +583,7 @@
       <Nom>KORAICHI</Nom>
       <Prenom>SALMANE</Prenom>
       <DateNaissance>2003-04-22</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>5</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -595,7 +595,7 @@
       <Nom>LABJAKH</Nom>
       <Prenom>SAFAE</Prenom>
       <DateNaissance>2003-11-11</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>15</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -607,7 +607,7 @@
       <Nom>LIO-EDDINE</Nom>
       <Prenom>SAMIA</Prenom>
       <DateNaissance>2003-07-31</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>20</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -619,7 +619,7 @@
       <Nom>LOUAH</Nom>
       <Prenom>MOHAMMED</Prenom>
       <DateNaissance>2003-06-24</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>16</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -631,7 +631,7 @@
       <Nom>NAYA</Nom>
       <Prenom>TAHA</Prenom>
       <DateNaissance>2003-11-16</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>10</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -643,7 +643,7 @@
       <Nom>OULAD MAALEM</Nom>
       <Prenom>AYOUB</Prenom>
       <DateNaissance>2003-09-17</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>17</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -655,7 +655,7 @@
       <Nom>RANBOUK</Nom>
       <Prenom>LAMIAE</Prenom>
       <DateNaissance>2002-07-10</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>15</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -667,7 +667,7 @@
       <Nom>SAKHRI</Nom>
       <Prenom>MOHAMED</Prenom>
       <DateNaissance>2003-06-17</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>4</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -679,7 +679,7 @@
       <Nom>SARSRI</Nom>
       <Prenom>AYMANE</Prenom>
       <DateNaissance>2002-07-30</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -691,7 +691,7 @@
       <Nom>SOUIDAK</Nom>
       <Prenom>FIRDAOUS</Prenom>
       <DateNaissance>2003-10-29</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>12</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -703,7 +703,7 @@
       <Nom>SOULHI</Nom>
       <Prenom>MALAK</Prenom>
       <DateNaissance>2003-02-15</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>7</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -715,7 +715,7 @@
       <Nom>STITOU</Nom>
       <Prenom>ABIR</Prenom>
       <DateNaissance>2003-08-01</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>13</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -727,7 +727,7 @@
       <Nom>SYLLA</Nom>
       <Prenom>NFALY</Prenom>
       <DateNaissance>2000-01-07</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>11</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -739,7 +739,7 @@
       <Nom>TAIBI IMMRANI</Nom>
       <Prenom>AMAL</Prenom>
       <DateNaissance>2002-12-25</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>15</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -751,7 +751,7 @@
       <Nom>TAJIDI</Nom>
       <Prenom>MALIKA</Prenom>
       <DateNaissance>2003-09-18</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>14</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -763,7 +763,7 @@
       <Nom>TAOUIL</Nom>
       <Prenom>FATIMAEZZAHRAE</Prenom>
       <DateNaissance>2004-03-29</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>18</Note>
       </SousModule>
       <SousModule nom="XML">
@@ -775,7 +775,7 @@
       <Nom>ZAHAR</Nom>
       <Prenom>KENZA</Prenom>
       <DateNaissance>2003-09-17</DateNaissance>
-      <SousModule nom="Programation Orientée Objet : Java">
+      <SousModule nom="Programation OrientÃ©e Objet : Java">
          <Note>14</Note>
       </SousModule>
       <SousModule nom="XML">

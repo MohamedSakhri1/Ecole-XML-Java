@@ -153,6 +153,19 @@
       <version>10.5</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>fop</artifactId>
+      <version>2.9</version>  <!-- Vérifie que tu utilises la dernière version -->
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>batik-all</artifactId>
+      <version>1.17</version>  <!-- Dernière version compatible -->
+    </dependency>
+
+
     <!-- JUnit pour les tests -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>

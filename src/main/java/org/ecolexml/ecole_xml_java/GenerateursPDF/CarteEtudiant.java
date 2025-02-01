@@ -10,27 +10,33 @@ import java.io.*;
 
 public class CarteEtudiant {
 
-    public static void main(String[] args) {
+    /**
+     * Méthode pour générer la carte de l'étudiant au format PDF
+     * @param apogee Le numéro d'apogée de l'étudiant
+     * @return Le fichier PDF généré
+     */
+    public static File fn(String apogee) {
         try {
-            String apogee = "21010278"; // Numéro de l'étudiant à rechercher
-
-            // ✅ Étape 1 : Exécuter XQuery pour récupérer les données de l’étudiant
+            // 1. Exécuter XQuery et générer le fichier XML pour l'étudiant
             File xmlFile = new File("src/main/resources/Fichiers_XQuery/Carte_Etudiant_result_avec_Xquery/CarteEtudiant_" + apogee + ".xml");
             executeXQuery(apogee, xmlFile);
 
-            // ✅ Étape 2 : Transformer le fichier XML en PDF avec XSL-FO
+            // 2. Transformer le fichier XML en PDF avec XSL-FO
             File xslFoFile = new File("src/main/resources/Fichiers_XSL_FO/CarteEtudiant.xsl");
             File pdfDir = new File("src/main/resources/Documents_PDF/CarteEtudiant");
-            pdfDir.mkdirs();
+            if (!pdfDir.exists()) pdfDir.mkdirs(); // Créer le dossier si nécessaire
             File pdfFile = new File(pdfDir, "CarteEtudiant_" + apogee + ".pdf");
 
             generatePDF(xmlFile, xslFoFile, pdfFile);
-            System.out.println("✅ PDF généré avec succès : " + pdfFile.getAbsolutePath());
+
+            // Retourner le fichier PDF généré
+            return pdfFile;
 
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("❌ Erreur lors de la génération du PDF !");
         }
+        return null;
     }
 
     /**

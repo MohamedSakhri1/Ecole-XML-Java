@@ -9,10 +9,10 @@
    <LieuNaissance>OUEZZANE</LieuNaissance>
    <DateNaissance>2003-06-17</DateNaissance>
    <Email>sakhri.mohamed@etu.uae.ac.ma</Email>
-   <Telephone>0640109577</Telephone>
+   <Telephone>062435644</Telephone>
    <Premiere_inscription>2021/2022</Premiere_inscription>
    <Classe>GINF2</Classe>
-   <Photo_path>null</Photo_path>
+   <Photo_path>images.png</Photo_path>
    <!-- Ajout des notes de l'étudiant -->
    <NotesEtudiant xsi:noNamespaceSchemaLocation="notes.xsd">
       <Note>
