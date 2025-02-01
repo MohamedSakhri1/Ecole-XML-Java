@@ -31,7 +31,7 @@ public class MainController {
     public ResponseEntity<String> getAffichageHTML(@RequestParam(name = "module", required = false, defaultValue = "GINF31") String moduleCode) {
         try {
             // Générer le fichier HTML et récupérer son chemin
-            String stringPath = AffichageModuleHTML.fn(moduleCode, false);
+            String stringPath = AffichageModuleHTML.fn(moduleCode);
 
             // Construire le chemin absolu du fichier généré
             Path filePath = Path.of(stringPath);
@@ -51,7 +51,9 @@ public class MainController {
         }
     }
 
-
+    private String HtmlParser(String HtmlFilePath) {
+        return null;
+    }
 
 
 

@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 import net.sf.saxon.s9api.*;
 
 public class AffichageModuleHTML {
-    public static String fn(String moduleCode,boolean isFromApi) {
+    public static String fn(String moduleCode) {
         // Définition des chemins des fichiers
         try {
             // 🟢 Étape 1 : Exécuter XQuery et générer le XML
@@ -24,9 +24,7 @@ public class AffichageModuleHTML {
 
             // 🟢 Étape 2 : Transformer XML en HTML avec XSLT
             String xsltFilePath = "src/main/resources/Fichiers_XSLT/AffichageModule.xsl";
-            String htmlOutputPath = isFromApi ?
-                                "src/main/ApiGeneratedFiles/AffichageModule_"+ moduleCode +".html"
-                                : "src/main/resources/Documents_HTML/AffichageModule/AffichageModule_"+ moduleCode +".html";
+            String htmlOutputPath = "src/main/resources/Documents_HTML/AffichageModule/AffichageModule_"+ moduleCode +".html";
 
             System.out.println("📌 Transformation en HTML...");
             transformXMLtoHTML(xmlOutputPath, xsltFilePath, htmlOutputPath);
