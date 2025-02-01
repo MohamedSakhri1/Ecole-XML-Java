@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Attestation.xsd">
+   <CodeApogee>21010401</CodeApogee>
+   <CIN>KB240903</CIN>
+   <CNE>P149014337</CNE>
+   <Nom>SAKHRI</Nom>
+   <Prenom>MOHAMED</Prenom>
+   <LieuNaissance>OUEZZANE</LieuNaissance>
+   <DateNaissance>2003-06-17</DateNaissance>
+   <Email>sakhri.mohamed@etu.uae.ac.ma</Email>
+   <Telephone>062435644</Telephone>
+   <Premiere_inscription>2021/2022</Premiere_inscription>
+   <Classe>GINF2</Classe>
+   <Photo_path>images.png</Photo_path>
+</Etudiant>
