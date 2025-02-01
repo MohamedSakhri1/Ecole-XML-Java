@@ -8,11 +8,11 @@ import java.io.*;
 import net.sf.saxon.s9api.*;
 
 public class AffichageModuleHTML {
-    public static void main(String[] args) {
+    public static String fn(String moduleCode) {
         // Définition des chemins des fichiers
         try {
             // 🟢 Étape 1 : Exécuter XQuery et générer le XML
-            String moduleCode = "GINF41"; // Module à traiter
+            //String moduleCode = "GINF41"; // Module à traiter
             String xqueryFilePath = "src/main/resources/Fichiers_XQuery/getModuleResults.xquery";
             String xmlOutputPath = "src/main/resources/Fichiers_XQuery/affichage_module_result_avec_Xquery/Affichage_" + moduleCode + ".xml";
 
@@ -27,11 +27,12 @@ public class AffichageModuleHTML {
             System.out.println("📌 Transformation en HTML...");
             transformXMLtoHTML(xmlOutputPath, xsltFilePath, htmlOutputPath);
             System.out.println("✅ Fichier HTML généré : " + htmlOutputPath);
-
+            return htmlOutputPath;
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("❌ Erreur lors du traitement !");
         }
+        return null;
     }
 
     /**

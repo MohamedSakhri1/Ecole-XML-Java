@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        nom="Administration et programmation système"
+        xsi:noNamespaceSchemaLocation="Affichage.xsd">
+   <Etudiant>
+      <CodeApogee>21010278</CodeApogee>
+      <Nom>ABDELOUAHAB</Nom>
+      <Prenom>SOUFIANE</Prenom>
+      <DateNaissance>2001-09-25</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>16</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21011326</CodeApogee>
+      <Nom>ABOU-EL KASEM</Nom>
+      <Prenom>KENZA</Prenom>
+      <DateNaissance>2003-05-21</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010358</CodeApogee>
+      <Nom>AHMYTTOU</Nom>
+      <Prenom>AYA</Prenom>
+      <DateNaissance>2004-02-23</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>18</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>12</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010266</CodeApogee>
+      <Nom>AIDOUN</Nom>
+      <Prenom>IBTISSAM</Prenom>
+      <DateNaissance>2002-09-14</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>10</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>16</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20001758</CodeApogee>
+      <Nom>AL AZAMI</Nom>
+      <Prenom>TAREK</Prenom>
+      <DateNaissance>2001-02-23</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>10</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010287</CodeApogee>
+      <Nom>ALLAM</Nom>
+      <Prenom>ELARBI</Prenom>
+      <DateNaissance>2004-02-27</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>12</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010482</CodeApogee>
+      <Nom>ARIB</Nom>
+      <Prenom>AYMANE</Prenom>
+      <DateNaissance>2003-09-25</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>10</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>14</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21009157</CodeApogee>
+      <Nom>AZZMAN</Nom>
+      <Prenom>NORELIMANE</Prenom>
+      <DateNaissance>2003-09-26</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>16</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010356</CodeApogee>
+      <Nom>AZZOUZ</Nom>
+      <Prenom>CHAIMAE</Prenom>
+      <DateNaissance>2004-01-31</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>20</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010411</CodeApogee>
+      <Nom>BEN IMRAN</Nom>
+      <Prenom>AHLAM</Prenom>
+      <DateNaissance>2003-10-27</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>14</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010476</CodeApogee>
+      <Nom>BENCHINE</Nom>
+      <Prenom>ABDELILAH</Prenom>
+      <DateNaissance>2003-12-31</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>12</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>22012817</CodeApogee>
+      <Nom>BENMGUIRIDA</Nom>
+      <Prenom>ANAS</Prenom>
+      <DateNaissance>2000-12-18</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>20</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>10</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21009110</CodeApogee>
+      <Nom>BERKOUKT</Nom>
+      <Prenom>AMINE</Prenom>
+      <DateNaissance>2004-05-13</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>4</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>9</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21011779</CodeApogee>
+      <Nom>BIGAGANE</Nom>
+      <Prenom>ABDELLAH</Prenom>
+      <DateNaissance>2004-01-13</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>6</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20011005</CodeApogee>
+      <Nom>BOUHNINE</Nom>
+      <Prenom>SAFAA</Prenom>
+      <DateNaissance>2001-12-28</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>8</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>18</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21002603</CodeApogee>
+      <Nom>BOUKER</Nom>
+      <Prenom>MOHAMMED</Prenom>
+      <DateNaissance>2003-07-19</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>4</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>19</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010261</CodeApogee>
+      <Nom>BOULERBAH</Nom>
+      <Prenom>YASSER</Prenom>
+      <DateNaissance>2003-09-13</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>19</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21011724</CodeApogee>
+      <Nom>BOUNOUAR</Nom>
+      <Prenom>MOHAMMED</Prenom>
+      <DateNaissance>2003-12-15</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>10</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>12</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21009025</CodeApogee>
+      <Nom>BOUSSAID</Nom>
+      <Prenom>MERYEME</Prenom>
+      <DateNaissance>2003-05-10</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>8</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010326</CodeApogee>
+      <Nom>CHAIBERRAS</Nom>
+      <Prenom>SOUHAIL</Prenom>
+      <DateNaissance>2003-04-17</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>17</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>11</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010299</CodeApogee>
+      <Nom>CHERKI</Nom>
+      <Prenom>HOUSSAM</Prenom>
+      <DateNaissance>2003-04-20</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>20</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21009475</CodeApogee>
+      <Nom>DAHBI</Nom>
+      <Prenom>MOAD</Prenom>
+      <DateNaissance>2003-09-03</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>19</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>12</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010439</CodeApogee>
+      <Nom>ECHCHRIKI</Nom>
+      <Prenom>IMAD</Prenom>
+      <DateNaissance>2002-04-14</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>11</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>15</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010403</CodeApogee>
+      <Nom>EL ADNANI</Nom>
+      <Prenom>EL MEHDI</Prenom>
+      <DateNaissance>2003-04-18</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>16</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>16</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010379</CodeApogee>
+      <Nom>EL AIDI IDRISSI</Nom>
+      <Prenom>ACHRAF</Prenom>
+      <DateNaissance>2004-02-12</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>14</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>20</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010272</CodeApogee>
+      <Nom>EL AOUAD</Nom>
+      <Prenom>OUAAIL</Prenom>
+      <DateNaissance>2003-07-19</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>19</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010324</CodeApogee>
+      <Nom>EL BAKALI</Nom>
+      <Prenom>MALAK</Prenom>
+      <DateNaissance>2003-11-12</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>11</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>18</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20007042</CodeApogee>
+      <Nom>EL FERCHOUNI</Nom>
+      <Prenom>SOUKAYNA</Prenom>
+      <DateNaissance>2001-09-20</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>11</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010274</CodeApogee>
+      <Nom>EL GARTI</Nom>
+      <Prenom>YASSINE</Prenom>
+      <DateNaissance>2003-05-20</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>15</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>19</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010319</CodeApogee>
+      <Nom>EL GHAZI</Nom>
+      <Prenom>SILIA</Prenom>
+      <DateNaissance>2003-04-04</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>14</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>19</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>19006658</CodeApogee>
+      <Nom>EL HARIRI</Nom>
+      <Prenom>KENZA</Prenom>
+      <DateNaissance>1999-03-23</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>8</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>18</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010322</CodeApogee>
+      <Nom>EL HARRAK</Nom>
+      <Prenom>MEHDI</Prenom>
+      <DateNaissance>2003-07-15</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>18</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>22012491</CodeApogee>
+      <Nom>EL HLLAFI</Nom>
+      <Prenom>BASMA</Prenom>
+      <DateNaissance>2003-08-28</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>4</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010441</CodeApogee>
+      <Nom>EL M RABET</Nom>
+      <Prenom>SAIDA</Prenom>
+      <DateNaissance>2001-05-06</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>20</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>19</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010423</CodeApogee>
+      <Nom>EL MATNI</Nom>
+      <Prenom>ADAM</Prenom>
+      <DateNaissance>2003-09-24</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>4</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20007896</CodeApogee>
+      <Nom>EL OUAHABI</Nom>
+      <Prenom>ANASS</Prenom>
+      <DateNaissance>2003-05-26</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>20</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>12</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>17004026</CodeApogee>
+      <Nom>EL YAZGHI</Nom>
+      <Prenom>MARYEM</Prenom>
+      <DateNaissance>1999-07-20</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21011787</CodeApogee>
+      <Nom>EL- OTMANI</Nom>
+      <Prenom>SARA</Prenom>
+      <DateNaissance>2003-11-27</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>17</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>19</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010306</CodeApogee>
+      <Nom>EL-BATTEOUI</Nom>
+      <Prenom>OUSSAMA</Prenom>
+      <DateNaissance>2003-01-03</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>12</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>19005680</CodeApogee>
+      <Nom>FAROUK</Nom>
+      <Prenom>ZAKARIA</Prenom>
+      <DateNaissance>2001-09-24</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>17</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>20</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010320</CodeApogee>
+      <Nom>HADAD</Nom>
+      <Prenom>WAIL</Prenom>
+      <DateNaissance>2003-12-03</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010359</CodeApogee>
+      <Nom>HAJOUZ</Nom>
+      <Prenom>RIHAB</Prenom>
+      <DateNaissance>2004-03-16</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>17</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>15</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010334</CodeApogee>
+      <Nom>HILALY</Nom>
+      <Prenom>ANAS</Prenom>
+      <DateNaissance>2003-09-20</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>16</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>14</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010011</CodeApogee>
+      <Nom>IKEN</Nom>
+      <Prenom>HANAE</Prenom>
+      <DateNaissance>2003-03-27</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>18</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>15</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010368</CodeApogee>
+      <Nom>JEBARI HASSANI</Nom>
+      <Prenom>ABDELHAK</Prenom>
+      <DateNaissance>2003-11-24</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>20</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>15</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20009973</CodeApogee>
+      <Nom>KABBOUR</Nom>
+      <Prenom>WISSAL</Prenom>
+      <DateNaissance>2002-08-04</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>20</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>18</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010231</CodeApogee>
+      <Nom>KEROUAN SALAH</Nom>
+      <Prenom>SOUMAIA</Prenom>
+      <DateNaissance>2003-04-27</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>14</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21011780</CodeApogee>
+      <Nom>KONTAR</Nom>
+      <Prenom>RIHAM</Prenom>
+      <DateNaissance>2003-11-16</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>8</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>10</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20000927</CodeApogee>
+      <Nom>KORAICHI</Nom>
+      <Prenom>SALMANE</Prenom>
+      <DateNaissance>2003-04-22</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>11</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20000104</CodeApogee>
+      <Nom>LABJAKH</Nom>
+      <Prenom>SAFAE</Prenom>
+      <DateNaissance>2003-11-11</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>12</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010740</CodeApogee>
+      <Nom>LIO-EDDINE</Nom>
+      <Prenom>SAMIA</Prenom>
+      <DateNaissance>2003-07-31</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>18</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>14</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010291</CodeApogee>
+      <Nom>LOUAH</Nom>
+      <Prenom>MOHAMMED</Prenom>
+      <DateNaissance>2003-06-24</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>19</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21011784</CodeApogee>
+      <Nom>NAYA</Nom>
+      <Prenom>TAHA</Prenom>
+      <DateNaissance>2003-11-16</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>19</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>10</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010332</CodeApogee>
+      <Nom>OULAD MAALEM</Nom>
+      <Prenom>AYOUB</Prenom>
+      <DateNaissance>2003-09-17</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>15</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20007695</CodeApogee>
+      <Nom>RANBOUK</Nom>
+      <Prenom>LAMIAE</Prenom>
+      <DateNaissance>2002-07-10</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>17</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>18</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010401</CodeApogee>
+      <Nom>SAKHRI</Nom>
+      <Prenom>MOHAMED</Prenom>
+      <DateNaissance>2003-06-17</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>6</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>11</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21009322</CodeApogee>
+      <Nom>SARSRI</Nom>
+      <Prenom>AYMANE</Prenom>
+      <DateNaissance>2002-07-30</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>11</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>10</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21011667</CodeApogee>
+      <Nom>SOUIDAK</Nom>
+      <Prenom>FIRDAOUS</Prenom>
+      <DateNaissance>2003-10-29</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>6</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>16</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010348</CodeApogee>
+      <Nom>SOULHI</Nom>
+      <Prenom>MALAK</Prenom>
+      <DateNaissance>2003-02-15</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>13</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>10</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010242</CodeApogee>
+      <Nom>STITOU</Nom>
+      <Prenom>ABIR</Prenom>
+      <DateNaissance>2003-08-01</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>14</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>17</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21015477</CodeApogee>
+      <Nom>SYLLA</Nom>
+      <Prenom>NFALY</Prenom>
+      <DateNaissance>2000-01-07</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>15</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>15</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>20001713</CodeApogee>
+      <Nom>TAIBI IMMRANI</Nom>
+      <Prenom>AMAL</Prenom>
+      <DateNaissance>2002-12-25</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>20</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>13</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010255</CodeApogee>
+      <Nom>TAJIDI</Nom>
+      <Prenom>MALIKA</Prenom>
+      <DateNaissance>2003-09-18</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>12</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>11</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21011615</CodeApogee>
+      <Nom>TAOUIL</Nom>
+      <Prenom>FATIMAEZZAHRAE</Prenom>
+      <DateNaissance>2004-03-29</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>12</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>10</Note>
+      </SousModule>
+   </Etudiant>
+   <Etudiant>
+      <CodeApogee>21010409</CodeApogee>
+      <Nom>ZAHAR</Nom>
+      <Prenom>KENZA</Prenom>
+      <DateNaissance>2003-09-17</DateNaissance>
+      <SousModule nom="Administration systèmes">
+         <Note>15</Note>
+      </SousModule>
+      <SousModule nom="Programmation systèmes">
+         <Note>14</Note>
+      </SousModule>
+   </Etudiant>
+</Module>
