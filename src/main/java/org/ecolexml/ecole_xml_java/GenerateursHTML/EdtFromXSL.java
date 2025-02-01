@@ -6,7 +6,7 @@ import javax.xml.transform.stream.StreamSource;
 import java.io.File;
 
 public class EdtFromXSL {
-    public static void main(String[] args) {
+    public static void fn(boolean isFromApi) {
         try {
             // Définition des fichiers XML et XSLT
             String xmlFile = "src/main/resources/Fichiers_XML/Emploi du temps/Emploi_du_temps.xml";

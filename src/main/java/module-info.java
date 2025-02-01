@@ -8,6 +8,8 @@ module org.ecolexml.ecole_xml_java {
     requires spring.boot;
     requires spring.boot.autoconfigure;
     requires spring.context;
+    requires fop.core;
+    requires spring.core;
 
     exports org.ecolexml.ecole_xml_java;
 }
