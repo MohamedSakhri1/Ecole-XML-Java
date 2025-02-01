@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.ecolexml.ecole_xml_java.GenerateursPDF.AttestationReussitePDF;
 import org.ecolexml.ecole_xml_java.GenerateursPDF.AttestationScolaritePDF;
 import org.ecolexml.ecole_xml_java.GenerateursPDF.CarteEtudiant;
+import org.ecolexml.ecole_xml_java.GenerateursPDF.ReleveNotes;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -124,6 +125,8 @@ public class MainController {
             e.printStackTrace();
             return ResponseEntity.status(500).body(("Erreur lors de la génération du PDF").getBytes());
         }
+
+
     }
 
 
@@ -157,6 +160,32 @@ public class MainController {
     }
 
 
+    @GetMapping("/releveNotes/pdf")
+    public ResponseEntity<byte[]> generateReleveNotesPDF(@RequestParam String apogee) {
+        try {
+            // Appel de la méthode fn de ReleveNotes pour générer le PDF
+            File pdfFile = ReleveNotes.fn(apogee);
 
+            if (pdfFile == null || !pdfFile.exists()) {
+                return ResponseEntity.status(404).body(("PDF introuvable").getBytes());
+            }
+
+            // Lire le fichier PDF généré
+            byte[] pdfBytes = new byte[(int) pdfFile.length()];
+            try (FileInputStream fis = new FileInputStream(pdfFile)) {
+                fis.read(pdfBytes);
+            }
+
+            // Retourner le PDF en réponse sans le forcer à être téléchargé
+            return ResponseEntity.ok()
+                    .contentType(MediaType.APPLICATION_PDF)
+                    .header(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=" + pdfFile.getName())
+                    .body(pdfBytes);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500).body(("Erreur lors de la génération du PDF").getBytes());
+        }
+    }
 
 }
