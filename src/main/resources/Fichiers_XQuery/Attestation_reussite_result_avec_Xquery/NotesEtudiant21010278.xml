@@ -9,164 +9,164 @@
    <LieuNaissance>RABAT</LieuNaissance>
    <DateNaissance>2001-09-25</DateNaissance>
    <Email>abdelouahab.soufiane@etu.uae.ac.ma</Email>
-   <Telephone>0629844899</Telephone>
+   <Telephone>063638922</Telephone>
    <Premiere_inscription>2021/2022</Premiere_inscription>
    <Classe>GINF2</Classe>
-   <Photo_path>null</Photo_path>
+   <Photo_path>img.png</Photo_path>
    <!-- Ajout des notes de l'étudiant -->
    <NotesEtudiant xsi:noNamespaceSchemaLocation="notes.xsd">
       <Note>
-         <ModuleCode>GINF31</ModuleCode>
+         <ModuleCode>GINF31 : Programation Orientée Objet &amp; XML</ModuleCode>
          <SousModule>Programation Orientée Objet : Java</SousModule>
          <Moyenne>11</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF31</ModuleCode>
+         <ModuleCode>GINF31 : Programation Orientée Objet &amp; XML</ModuleCode>
          <SousModule>XML</SousModule>
          <Moyenne>12</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF32</ModuleCode>
+         <ModuleCode>GINF32 : Qualité &amp; approche processus</ModuleCode>
          <SousModule>Assurance contrôle qualité (ISO 9001)</SousModule>
          <Moyenne>19</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF32</ModuleCode>
+         <ModuleCode>GINF32 : Qualité &amp; approche processus</ModuleCode>
          <SousModule>Cycle de Vie Logiciel et Méthodes agiles</SousModule>
          <Moyenne>10</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF32</ModuleCode>
+         <ModuleCode>GINF32 : Qualité &amp; approche processus</ModuleCode>
          <SousModule>Maitrise et optimisation des processus</SousModule>
          <Moyenne>14</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF33</ModuleCode>
+         <ModuleCode>GINF33 : Modelisation orientée objet et IHM</ModuleCode>
          <SousModule>Modelisation orientée objet UML</SousModule>
          <Moyenne>13</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF33</ModuleCode>
+         <ModuleCode>GINF33 : Modelisation orientée objet et IHM</ModuleCode>
          <SousModule>IHM</SousModule>
          <Moyenne>15</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF33</ModuleCode>
+         <ModuleCode>GINF33 : Modelisation orientée objet et IHM</ModuleCode>
          <SousModule>Cycle de Vie logiciel</SousModule>
          <Moyenne>11</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF34</ModuleCode>
+         <ModuleCode>GINF34 : Bases de données avancées 1</ModuleCode>
          <SousModule>Optimisation et Qualité de Base de données</SousModule>
          <Moyenne>15</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF34</ModuleCode>
+         <ModuleCode>GINF34 : Bases de données avancées 1</ModuleCode>
          <SousModule>Administration et Sécurité des Bases de données</SousModule>
          <Moyenne>16</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF34</ModuleCode>
+         <ModuleCode>GINF34 : Bases de données avancées 1</ModuleCode>
          <SousModule>Base de données NoSQL</SousModule>
          <Moyenne>18</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF35</ModuleCode>
+         <ModuleCode>GINF35 : Administration et programmation système</ModuleCode>
          <SousModule>Administration systèmes</SousModule>
          <Moyenne>16</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF35</ModuleCode>
+         <ModuleCode>GINF35 : Administration et programmation système</ModuleCode>
          <SousModule>Programmation systèmes</SousModule>
          <Moyenne>13</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF36</ModuleCode>
+         <ModuleCode>GINF36 : Langue &amp; communication</ModuleCode>
          <SousModule>Espagnol 2 &amp; Allemand</SousModule>
          <Moyenne>17</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF36</ModuleCode>
+         <ModuleCode>GINF36 : Langue &amp; communication</ModuleCode>
          <SousModule>Anglais professionnel</SousModule>
          <Moyenne>14</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF36</ModuleCode>
+         <ModuleCode>GINF36 : Langue &amp; communication</ModuleCode>
          <SousModule>Technique de communication</SousModule>
          <Moyenne>10</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF41</ModuleCode>
+         <ModuleCode>GINF41 : Technologies distribuées</ModuleCode>
          <SousModule>Introduction à J2EE</SousModule>
          <Moyenne>10</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF41</ModuleCode>
+         <ModuleCode>GINF41 : Technologies distribuées</ModuleCode>
          <SousModule>Programmation en C#</SousModule>
          <Moyenne>14</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF42</ModuleCode>
+         <ModuleCode>GINF42 : Basesnde données avancées 2 &amp; Cloud</ModuleCode>
          <SousModule>Gestion des données complexes</SousModule>
          <Moyenne>11</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF42</ModuleCode>
+         <ModuleCode>GINF42 : Basesnde données avancées 2 &amp; Cloud</ModuleCode>
          <SousModule>Gestion des données distribuées</SousModule>
          <Moyenne>19</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF42</ModuleCode>
+         <ModuleCode>GINF42 : Basesnde données avancées 2 &amp; Cloud</ModuleCode>
          <SousModule>Cloud Computing &amp; Infogérance</SousModule>
          <Moyenne>19</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF43</ModuleCode>
+         <ModuleCode>GINF43 : Traitement de l'image</ModuleCode>
          <SousModule>Traitement de l'image</SousModule>
          <Moyenne>18</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF43</ModuleCode>
+         <ModuleCode>GINF43 : Traitement de l'image</ModuleCode>
          <SousModule>Vision numérique</SousModule>
          <Moyenne>20</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF43</ModuleCode>
+         <ModuleCode>GINF43 : Traitement de l'image</ModuleCode>
          <SousModule>Processus stochastique</SousModule>
          <Moyenne>10</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF44</ModuleCode>
+         <ModuleCode>GINF44 : Programat déclarative et Techniques algorithmiques Avancées</ModuleCode>
          <SousModule>Programmation déclarative</SousModule>
          <Moyenne>16</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF44</ModuleCode>
+         <ModuleCode>GINF44 : Programat déclarative et Techniques algorithmiques Avancées</ModuleCode>
          <SousModule>Technique algorithmique avancée</SousModule>
          <Moyenne>10</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF45</ModuleCode>
+         <ModuleCode>GINF45 : Sécurité &amp; cryptographie</ModuleCode>
          <SousModule>Sécurité des systemes</SousModule>
          <Moyenne>18</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF45</ModuleCode>
+         <ModuleCode>GINF45 : Sécurité &amp; cryptographie</ModuleCode>
          <SousModule>Cryptographie</SousModule>
          <Moyenne>15</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF46</ModuleCode>
+         <ModuleCode>GINF46 : Management de l'entreprise 2</ModuleCode>
          <SousModule>Economie 2 &amp; comptabilité 2</SousModule>
          <Moyenne>13</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF46</ModuleCode>
+         <ModuleCode>GINF46 : Management de l'entreprise 2</ModuleCode>
          <SousModule>Projet collectif &amp; stage</SousModule>
          <Moyenne>11</Moyenne>
       </Note>
       <Note>
-         <ModuleCode>GINF46</ModuleCode>
+         <ModuleCode>GINF46 : Management de l'entreprise 2</ModuleCode>
          <SousModule>Management de Projet</SousModule>
          <Moyenne>11</Moyenne>
       </Note>

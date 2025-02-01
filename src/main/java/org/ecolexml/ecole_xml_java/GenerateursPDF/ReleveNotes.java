@@ -1,5 +1,13 @@
 package org.ecolexml.ecole_xml_java.GenerateursPDF;
 
+import net.sf.saxon.s9api.*;
+import org.apache.fop.apps.*;
+
+import javax.xml.transform.*;
+import javax.xml.transform.sax.SAXResult;
+import javax.xml.transform.stream.StreamSource;
+import java.io.*;
+
 import static org.ecolexml.ecole_xml_java.GenerateursPDF.AttestationReussitePDF.*;
 
 public class ReleveNotes {
@@ -23,6 +31,58 @@ public class ReleveNotes {
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("❌ Erreur lors de la génération du PDF !");
+        }
+    }
+
+    /**
+     * Exécute la requête XQuery pour récupérer les données de l'étudiant et les stocke dans un fichier XML.
+     */
+    public static void executeXQuery(String xqueryFile, String outputXml, String apogee) throws SaxonApiException, IOException {
+        Processor processor = new Processor(false);
+        XQueryCompiler compiler = processor.newXQueryCompiler();
+        XQueryExecutable executable = compiler.compile(new File(xqueryFile));
+        XQueryEvaluator evaluator = executable.load();
+
+        // Définir la variable externe pour le numéro d'Apogée
+        QName apogeeParam = new QName("apogee");
+        XdmAtomicValue apogeeValue = new XdmAtomicValue(apogee);
+        evaluator.setExternalVariable(apogeeParam, apogeeValue);
+
+        // Exécuter et stocker le résultat
+        XdmValue result = evaluator.evaluate();
+        writeXmlToFile(result, outputXml);
+    }
+
+    private static void writeXmlToFile(XdmValue result, String filePath) throws IOException {
+        File file = new File(filePath);
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+            writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+            writer.write(result.toString());
+        }
+    }
+
+    /**
+     * Transforme un fichier XML en PDF à l'aide de XSL-FO et Apache FOP.
+     */
+    public static void generatePDF(String xmlFile, String xslFoFile, String outputPdf) throws Exception {
+        File xmlSource = new File(xmlFile);
+        File xslFoSource = new File(xslFoFile);
+        File pdfFile = new File(outputPdf);
+
+        FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
+        FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
+        OutputStream out = new BufferedOutputStream(new FileOutputStream(pdfFile));
+
+        try {
+            Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, foUserAgent, out);
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer(new StreamSource(xslFoSource));
+
+            Source src = new StreamSource(xmlSource);
+            Result res = new SAXResult(fop.getDefaultHandler());
+            transformer.transform(src, res);
+        } finally {
+            out.close();
         }
     }
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Attestation.xsd">
+   <CodeApogee>21011326</CodeApogee>
+   <CIN>K585284</CIN>
+   <CNE>P130521166</CNE>
+   <Nom>ABOU-EL KASEM</Nom>
+   <Prenom>KENZA</Prenom>
+   <LieuNaissance>HDJEHEB</LieuNaissance>
+   <DateNaissance>2003-05-21</DateNaissance>
+   <Email>abou-el kasem.kenza@etu.uae.ac.ma</Email>
+   <Telephone>0654702901</Telephone>
+   <Premiere_inscription>2021/2022</Premiere_inscription>
+   <Classe>GINF2</Classe>
+   <Photo_path>images.png</Photo_path>
+</Etudiant>
