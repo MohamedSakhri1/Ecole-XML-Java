@@ -7,6 +7,7 @@ import javax.xml.transform.*;
 import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamSource;
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Classe pour générer l'attestation de réussite au format PDF.
@@ -67,7 +68,7 @@ public class AttestationReussitePDF {
      * Écrit le résultat XdmValue dans un fichier XML.
      */
     public static void writeResultToFile(XdmValue result, File file) throws IOException {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
+        try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), StandardCharsets.UTF_8))) {
             writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
             for (XdmItem item : result) {
                 writer.write(item.toString());

@@ -3,6 +3,7 @@ package org.ecolexml.ecole_xml_java.Api;
 import org.ecolexml.ecole_xml_java.GenerateursHTML.AffichageModuleHTML;
 import org.ecolexml.ecole_xml_java.GenerateursHTML.EdtFromXSL;
 import org.ecolexml.ecole_xml_java.GenerateursHTML.EdtHTML;
+import org.ecolexml.ecole_xml_java.GenerateursPDF.AffichageModulePDF;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -98,6 +99,34 @@ public class MainController {
         }
     }
 
+    @GetMapping("/affichage/pdf")
+    public ResponseEntity<byte[]> getAffichageModule(@RequestParam String module) {
+        try {
+            // Appel de la méthode fn de AttestationReussitePDF
+            File pdfFile = AffichageModulePDF.fn(module);
+
+            if (pdfFile == null || !pdfFile.exists()) {
+                return ResponseEntity.status(404).body(("PDF introuvable").getBytes());
+            }
+
+            // Lire le fichier PDF généré
+            byte[] pdfBytes = new byte[(int) pdfFile.length()];
+            try (FileInputStream fis = new FileInputStream(pdfFile)) {
+                fis.read(pdfBytes);
+            }
+
+            // Retourner le PDF avec le bon type MIME et en-têtes pour l'affichage dans le navigateur
+            return ResponseEntity.ok()
+                    .contentType(MediaType.APPLICATION_PDF)
+                    .header(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=Affichage_" + module + ".pdf")
+                    .body(pdfBytes);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500).body(("Erreur lors de la génération du PDF").getBytes());
+        }
+    }
+
 
     @GetMapping("/attestationReussite/pdf")
     public ResponseEntity<byte[]> generateAttestationReussitePDF(@RequestParam String apogee) {
@@ -154,9 +183,6 @@ public class MainController {
             e.printStackTrace();
             return ResponseEntity.status(500).body(("Erreur lors de la génération du PDF").getBytes());
         }
-    }
-    private String HtmlParser(String HtmlFilePath) {
-        return null;
     }
 
 
