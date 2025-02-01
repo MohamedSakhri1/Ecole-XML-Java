@@ -3,10 +3,7 @@ package org.ecolexml.ecole_xml_java.Api;
 import org.ecolexml.ecole_xml_java.GenerateursHTML.AffichageModuleHTML;
 import org.ecolexml.ecole_xml_java.GenerateursHTML.EdtFromXSL;
 import org.ecolexml.ecole_xml_java.GenerateursHTML.EdtHTML;
-import org.ecolexml.ecole_xml_java.GenerateursPDF.AttestationReussitePDF;
-import org.ecolexml.ecole_xml_java.GenerateursPDF.AttestationScolaritePDF;
-import org.ecolexml.ecole_xml_java.GenerateursPDF.CarteEtudiant;
-import org.ecolexml.ecole_xml_java.GenerateursPDF.ReleveNotes;
+import org.ecolexml.ecole_xml_java.GenerateursPDF.*;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -176,4 +173,31 @@ public class MainController {
         }
     }
 
+    @GetMapping("/affichageModule/pdf")
+    public ResponseEntity<byte[]> generateAffichageModulePDF(@RequestParam String moduleCode) {
+        try {
+            // Appel de la méthode fn de AffichageModulePDF pour générer le PDF
+            File pdfFile = AffichageModulePDF.fn(moduleCode);
+
+            if (pdfFile == null || !pdfFile.exists()) {
+                return ResponseEntity.status(404).body(("PDF introuvable").getBytes());
+            }
+
+            // Lire le fichier PDF généré
+            byte[] pdfBytes = new byte[(int) pdfFile.length()];
+            try (FileInputStream fis = new FileInputStream(pdfFile)) {
+                fis.read(pdfBytes);
+            }
+
+            // Retourner le PDF en réponse sans le forcer à être téléchargé
+            return ResponseEntity.ok()
+                    .contentType(MediaType.APPLICATION_PDF)
+                    .header(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=" + pdfFile.getName())
+                    .body(pdfBytes);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500).body(("Erreur lors de la génération du PDF").getBytes());
+        }
+    }
 }
