@@ -3,9 +3,11 @@ module org.ecolexml.ecole_xml_java {
     requires Saxon.HE;
     requires org.apache.poi.poi;
     requires fop;
-    requires html2pdf;
     requires java.desktop;
+    requires spring.web;
+    requires spring.boot;
+    requires spring.boot.autoconfigure;
+    requires spring.context;
 
-    opens org.ecolexml.ecole_xml_java to javafx.fxml;
     exports org.ecolexml.ecole_xml_java;
 }

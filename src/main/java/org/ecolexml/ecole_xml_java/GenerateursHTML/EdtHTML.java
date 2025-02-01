@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class EdtHTML {
-    public static void main(String[] args) {
+    public static void fn(boolean isFromApi) {
         try {
             // path de fichier XML
             String fileName = "src/main/resources/Fichiers_XML/Emploi du temps/Emploi_du_temps.xml";
@@ -21,7 +21,7 @@ public class EdtHTML {
             Document doc = builder.parse(xmlFile);
             doc.getDocumentElement().normalize();
             // path du ficher HTML a génerer
-            String htmlFilePath = "src/main/resources/Documents_HTML/EDT/EDT.html";
+            String htmlFilePath = isFromApi ? "src/main/resources/templates/EDT.html" : "src/main/resources/Documents_HTML/EDT/EDT.html";
             // Générer le fichier HTML
             generateHTML(doc,htmlFilePath);
             System.out.println("Emploi du temps généré : "+ htmlFilePath);
