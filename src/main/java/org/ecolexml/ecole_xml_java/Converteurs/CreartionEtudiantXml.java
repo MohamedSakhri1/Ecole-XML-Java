@@ -71,7 +71,7 @@ public class CreartionEtudiantXml {
                 }
 
                 etudiant.appendChild(createElement(doc, "Classe", className));
-                etudiant.appendChild(createElement(doc, "Photo_path", "/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/java/org/ecolexml/ecole_xml_java/Converteurs/images.png")); // Par défaut
+                etudiant.appendChild(createElement(doc, "Photo_path", "images.png")); // Par défaut
 
                 // Ajouter <Etudiant> à la racine
                 rootElement.appendChild(etudiant);
@@ -85,7 +85,7 @@ public class CreartionEtudiantXml {
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
 
             DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/resources/Fichiers_XML/Etudiant/Etudiants.xml"));
+            StreamResult result = new StreamResult(new File("src/main/resources/Fichiers_XML/Etudiant/Etudiants.xml"));
 
             transformer.transform(source, result);
 

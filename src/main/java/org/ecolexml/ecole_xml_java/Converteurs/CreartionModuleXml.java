@@ -89,7 +89,7 @@ public class CreartionModuleXml {
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
 
             DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/resources/Fichiers_XML/Module/Modules.xml"));
+            StreamResult result = new StreamResult(new File("src/main/resources/Fichiers_XML/Module/Modules.xml"));
 
             transformer.transform(source, result);
 

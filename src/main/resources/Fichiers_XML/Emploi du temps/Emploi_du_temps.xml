@@ -1,148 +1,149 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Eemploi_de_temps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Emploi_de_temps.XSD">
-    <Filiere nom="ginf2">
-        <Jour date="XX/XX" nom="Lundi">
-            <Module nom="Cryptoraphie">
-                <Creneau type="CM">
-                    <Heure>09:00 - 10:30</Heure>
-                    <Prof>LAZAAR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Cryptoraphie">
-                <Creneau type="CM">
-                    <Heure>11:00 - 12:30</Heure>
-                    <Prof>LAZAAR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Bases de donnes non SQL">
-                <Creneau type="CM">
-                    <Heure>13:30 - 15:00</Heure>
-                    <Prof>BADIR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Bases de donnes non SQL">
-                <Creneau type="TP">
-                    <Heure>15:30 - 17:00</Heure>
-                    <Prof>BADIR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-        </Jour>
-        <Jour date="XX/XX" nom="Mardi">
-            <Module nom="Programmation Decl">
-                <Creneau type="TP">
-                    <Heure>09:00 - 10:30</Heure>
-                    <Prof>CHAFIK</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Programmation Decl">
-                <Creneau type="TP">
-                    <Heure>11:00 - 12:30</Heure>
-                    <Prof>CHAFIK</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Programmation Decl">
-                <Creneau type="CM">
-                    <Heure>13:30 - 15:00</Heure>
-                    <Prof>EL ALAMI</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-        </Jour>
-        <Jour date="XX/XX" nom="Mercredi">
-            <Module nom="Traitement d'image">
-                <Creneau type="TP">
-                    <Heure>09:00 - 10:30</Heure>
-                    <Prof>LACHKAR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Traitement d'image">
-                <Creneau type="CM">
-                    <Heure>11:00 - 12:30</Heure>
-                    <Prof>LACHKAR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Management de projets">
-                <Creneau type="TP">
-                    <Heure>13:30 - 15:00</Heure>
-                    <Prof>RAHALI AZOUZI</Prof>
-                    <Salle>Salle B19</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Management de projets">
-                <Creneau type="TP">
-                    <Heure>15:30 - 17:00</Heure>
-                    <Prof>RAHALI AZOUZI</Prof>
-                    <Salle>Salle B19</Salle>
-                </Creneau>
-            </Module>
-        </Jour>
-        <Jour date="XX/XX" nom="Jeudi">
-            <Module nom="Traitement d'image">
-                <Creneau type="TP">
-                    <Heure>09:00 - 10:30</Heure>
-                    <Prof>LACHKAR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Traitement d'image">
-                <Creneau type="CM">
-                    <Heure>11:00 - 12:30</Heure>
-                    <Prof>LACHKAR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Dot Net  C sharp">
-                <Creneau type="TP">
-                    <Heure>13:30 - 15:00</Heure>
-                    <Prof>GHAILANI</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Dot Net  C sharp">
-                <Creneau type="TP">
-                    <Heure>15:30 - 17:00</Heure>
-                    <Prof>GHAILANI</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-        </Jour>
-        <Jour date="XX/XX" nom="Vendredi">
-            <Module nom="Gestion des donnees">
-                <Creneau type="CM">
-                    <Heure>09:00 - 10:30</Heure>
-                    <Prof>BADIR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Gestion des donnees">
-                <Creneau type="CM">
-                    <Heure>11:00 - 12:30</Heure>
-                    <Prof>BADIR</Prof>
-                    <Salle>Salle B20</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Comptabilite 2">
-                <Creneau type="CM">
-                    <Heure>14:30 - 16:00</Heure>
-                    <Prof>Naitboubker</Prof>
-                    <Salle>Salle B2</Salle>
-                </Creneau>
-            </Module>
-            <Module nom="Comptabilite 2">
-                <Creneau type="CM">
-                    <Heure>16:30 - 18:00</Heure>
-                    <Prof>Naitboubker</Prof>
-                    <Salle>Salle B2</Salle>
-                </Creneau>
-            </Module>
-        </Jour>
-    </Filiere>
+<?xml version="1.0" encoding="UTF-8"?>
+<Eemploi_de_temps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="Emploi_de_temps.XSD">
+   <Filiere nom="ginf2">
+      <Jour date="XX/XX" nom="Lundi">
+         <Module nom="Cryptoraphie">
+            <Creneau type="CM">
+               <Heure>09:00 - 10:30</Heure>
+               <Prof>LAZAAR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Cryptoraphie">
+            <Creneau type="CM">
+               <Heure>11:00 - 12:30</Heure>
+               <Prof>LAZAAR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Bases de donnes non SQL">
+            <Creneau type="CM">
+               <Heure>13:30 - 15:00</Heure>
+               <Prof>BADIR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Bases de donnes non SQL">
+            <Creneau type="TP">
+               <Heure>15:30 - 17:00</Heure>
+               <Prof>BADIR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+      </Jour>
+      <Jour date="XX/XX" nom="Mardi">
+         <Module nom="Programmation Decl">
+            <Creneau type="TP">
+               <Heure>09:00 - 10:30</Heure>
+               <Prof>CHAFIK</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Programmation Decl">
+            <Creneau type="TP">
+               <Heure>11:00 - 12:30</Heure>
+               <Prof>CHAFIK</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Programmation Decl">
+            <Creneau type="CM">
+               <Heure>13:30 - 15:00</Heure>
+               <Prof>EL ALAMI</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+      </Jour>
+      <Jour date="XX/XX" nom="Mercredi">
+         <Module nom="Traitement d'image">
+            <Creneau type="TP">
+               <Heure>09:00 - 10:30</Heure>
+               <Prof>LACHKAR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Traitement d'image">
+            <Creneau type="CM">
+               <Heure>11:00 - 12:30</Heure>
+               <Prof>LACHKAR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Management de projets">
+            <Creneau type="TP">
+               <Heure>13:30 - 15:00</Heure>
+               <Prof>RAHALI AZOUZI</Prof>
+               <Salle>Salle B19</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Management de projets">
+            <Creneau type="TP">
+               <Heure>15:30 - 17:00</Heure>
+               <Prof>RAHALI AZOUZI</Prof>
+               <Salle>Salle B19</Salle>
+            </Creneau>
+         </Module>
+      </Jour>
+      <Jour date="XX/XX" nom="Jeudi">
+         <Module nom="Traitement d'image">
+            <Creneau type="TP">
+               <Heure>09:00 - 10:30</Heure>
+               <Prof>LACHKAR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Traitement d'image">
+            <Creneau type="CM">
+               <Heure>11:00 - 12:30</Heure>
+               <Prof>LACHKAR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Dot Net  C sharp">
+            <Creneau type="TP">
+               <Heure>13:30 - 15:00</Heure>
+               <Prof>GHAILANI</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Dot Net  C sharp">
+            <Creneau type="TP">
+               <Heure>15:30 - 17:00</Heure>
+               <Prof>GHAILANI</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+      </Jour>
+      <Jour date="XX/XX" nom="Vendredi">
+         <Module nom="Gestion des donnees">
+            <Creneau type="CM">
+               <Heure>09:00 - 10:30</Heure>
+               <Prof>BADIR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Gestion des donnees">
+            <Creneau type="CM">
+               <Heure>11:00 - 12:30</Heure>
+               <Prof>BADIR</Prof>
+               <Salle>Salle B20</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Comptabilite 2">
+            <Creneau type="CM">
+               <Heure>14:30 - 16:00</Heure>
+               <Prof>Naitboubker</Prof>
+               <Salle>Salle B2</Salle>
+            </Creneau>
+         </Module>
+         <Module nom="Comptabilite 2">
+            <Creneau type="CM">
+               <Heure>16:30 - 18:00</Heure>
+               <Prof>Naitboubker</Prof>
+               <Salle>Salle B2</Salle>
+            </Creneau>
+         </Module>
+      </Jour>
+   </Filiere>
 </Eemploi_de_temps>

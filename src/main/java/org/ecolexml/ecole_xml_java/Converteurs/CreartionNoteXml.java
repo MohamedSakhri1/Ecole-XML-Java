@@ -98,7 +98,7 @@ public class CreartionNoteXml {
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
 
             DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("/Users/anashilaly/Desktop/Ecole_XML_Java/src/main/resources/Fichiers_XML/Note/Notes.xml"));
+            StreamResult result = new StreamResult(new File("src/main/resources/Fichiers_XML/Note/Notes.xml"));
 
             transformer.transform(source, result);
 
