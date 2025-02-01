@@ -45,7 +45,7 @@ Finalement executer la commande qui lence le projet
 mvn spring-boot:run
 
 ```
-# Guide d'ulilisation des APIs
+# Guide d'utilisation des APIs
 ## Introduction
 Les Apis fournis sont sous forme de Get Requests avec la configuration suivante :
 + le host : `localhost`
