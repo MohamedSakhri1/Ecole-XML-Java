@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Etudiant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Attestation.xsd">
+   <CodeApogee>21010334</CodeApogee>
+   <CIN>K567740</CIN>
+   <CNE>P134113294</CNE>
+   <Nom>HILALY</Nom>
+   <Prenom>ANAS</Prenom>
+   <LieuNaissance>TANGER</LieuNaissance>
+   <DateNaissance>2003-09-20</DateNaissance>
+   <Email>hilaly.anas@etu.uae.ac.ma</Email>
+   <Telephone>0621523379</Telephone>
+   <Premiere_inscription>2021/2022</Premiere_inscription>
+   <Classe>GINF2</Classe>
+   <Photo_path>images.png</Photo_path>
+</Etudiant>

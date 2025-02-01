@@ -79,18 +79,27 @@ public class AffichageModulePDF {
     /**
      * Génère un fichier PDF à partir d'un fichier XML et d'un XSL-FO.
      */
-    private static void generatePDF(File xmlFile, File xslFoFile, File pdfFile) throws Exception {
+    public static void generatePDF(File xmlFile, File xslFoFile, File pdfFile) throws Exception {
+        // Crée une instance de FopFactory pour générer le PDF
         FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
         FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
 
-        try (OutputStream out = new BufferedOutputStream(new FileOutputStream(pdfFile))) {
-            Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, foUserAgent, out);
-            TransformerFactory factory = TransformerFactory.newInstance();
-            Transformer transformer = factory.newTransformer(new StreamSource(xslFoFile));
+        // Prépare la sortie du fichier PDF
+        OutputStream out = new BufferedOutputStream(new FileOutputStream(pdfFile));
 
+        try {
+            // Crée un objet Fop pour générer le PDF
+            Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF, foUserAgent, out);
+            // Utilise un transformer pour appliquer le XSLT
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer(new StreamSource(xslFoFile));
+
+            // Applique la transformation XSLT sur le fichier XML et génère le PDF
             Source src = new StreamSource(xmlFile);
             Result res = new SAXResult(fop.getDefaultHandler());
             transformer.transform(src, res);
+        } finally {
+            out.close();
         }
     }
 }
